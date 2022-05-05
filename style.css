@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    background: rgb(250, 251, 249);
+        width: 100%;
+        margin-top: 0px;
+        z-index: 10;
+
+}
+
+#welcome {
+    background: linear-gradient(green,orange);
+    display: table;
+    color: rgb(133, 31, 250);
+    height: 60%;
+    width: 100%;
+    z-index: 8;
+    
+}
+
+.links {
+  display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: black;
+}
+
+#game {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#About {
+    background: linear-gradient(orange, yellow 100%);
+    display: table;
+    color: white;
+    height: 200%;
+    width: 100%;
+
+}
+
+#ggames {
+    background: linear-gradient(yellow, green 100%);
+    display: table;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+.outer {
+  display: table;
+}
+
+.inner {
+  display: table-cell;
+}
+
+#rblox {
+  height 200px;
+  width: 200px;
+}
+
+#mcraft {
+  height: 200px;
+  width: 200px;
+    
+}
+
+#vlorant {
+  height: 200px;
+  width: 200px;
+}
+
+.gamelinks {
+  font-size: 30px;
+  color: white;
+  margin: 30px;
+    text-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 3px 3px white;
+}
+
+.gamelinks:hover {
+  background-color: blue;
+}
+
+div {
+  text-align: center
+}
+
+#notch {
+  text-align: center;
+}
+
+#creators {
+  height: 100%;
+  width: 100%;
+}
+
+#creators {
+    background: linear-gradient(green, blue 100%);
+    display: table;
+    color: black;
+    height: 40%;
+    width: 100%;
+    z-index: 8;
+  position: below;
+}
+
+#vgameimg {
+  height: 200px;
+  width: 200px;
+}
+
+.links:hover {
+  background-color: cyan;
+  font-size: 25px
+}
+
+#bonus {
+    background: linear-gradient(blue, purple 100%);
+    display: table;
+    color: black;
+    height: 40%;
+    width: 100%;
+    z-index: 8;
+  position: below;
+}
+#contact {
+    background: linear-gradient(purple, rgb(253, 251, 253) 100%);
+    display: table;
+    color: white;
+    height: 200%;
+    width: 100%;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gameimages {
+ transition: transform .5s;   
+}
+
+.gameimages:hover {
+transform: scale(0.9);   
+}
